@@ -76,6 +76,10 @@ table {
   text-decoration: none;
 }
 
+.page-header a:visited {
+  color: #000;
+}
+
 .header-left {
   display: flex;
   width: 100%;
