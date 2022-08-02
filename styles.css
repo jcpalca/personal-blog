@@ -69,7 +69,9 @@ table {
 }
 
 .page-header {
-  background-color: rgb(195, 157, 229);
+  background-color: rgb(229, 155, 139);
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
 }
 
 .page-header a {
@@ -115,4 +117,11 @@ table {
   padding-right: 20px;
   color: #000;
   font-family: MochiyPopOne;
+}
+
+/*==================================*/
+/*===============MAIN===============*/
+/*==================================*/
+main {
+  background-color: rgb(244, 221, 203);
 }
