@@ -53,6 +53,11 @@ table {
   src: url("fonts/MochiyPopOne-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: Dosis;
+  src: url("fonts/Dosis-Regular.ttf") format("truetype");
+}
+
 .wrapper {
   width: 1150px;
   margin: 0 auto;
@@ -76,6 +81,7 @@ table {
 
 .page-header a {
   text-decoration: none;
+  color: #000;
 }
 
 .page-header a:visited {
@@ -124,4 +130,53 @@ table {
 /*==================================*/
 main {
   background-color: rgb(244, 221, 203);
+}
+
+.welcome {
+  display: flex;
+}
+
+.welcome-left {
+  width: 50%;
+  margin: auto 0;
+}
+
+.welcome-left h1 {
+  font-size: 34px;
+  font-family: MochiyPopOne;
+}
+
+.welcome-left p,
+.welcome-left a {
+  font-size: 16px;
+  font-family: Dosis;
+}
+
+.welcome-left p {
+  margin: 20px 0 20px 0;
+}
+
+.welcome-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.welcome-left a {
+  border: 2px solid #000;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(233, 137, 121);
+  font-weight: 600;
+}
+
+.welcome-left a:visited {
+  color: #000;
+}
+
+.welcome-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
