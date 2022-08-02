@@ -88,6 +88,10 @@ table {
   color: #000;
 }
 
+.page-header a:hover {
+  color: rgb(188, 93, 107);
+}
+
 .header-left {
   display: flex;
   width: 100%;
@@ -130,6 +134,7 @@ table {
 /*==================================*/
 main {
   background-color: rgb(244, 221, 203);
+  border-bottom: 1px solid #000;
 }
 
 .welcome {
@@ -173,6 +178,10 @@ main {
 
 .welcome-left a:visited {
   color: #000;
+}
+
+.welcome-left a:hover {
+  color: rgb(188, 93, 107);
 }
 
 .welcome-right {
